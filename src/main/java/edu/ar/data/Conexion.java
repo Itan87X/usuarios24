@@ -13,7 +13,7 @@ public class Conexion {
 
   private static final String JDBC_URL ="jdbc:mysql://localhost:3306/RegistroUsuarios?useSSL=false&useTimeZone=true&serverTimeZone=UTC&allowPublicKeyRetrieval=true";
   private static final String JDBC_USR = "root";
-  private static final String JDBC_PASS = "s0yN4t";
+  private static final String JDBC_PASS = "";
 
   public static DataSource getDataSource() {
     BasicDataSource ds = new BasicDataSource();
